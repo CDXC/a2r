@@ -6,6 +6,9 @@ all: $(TARGET)
 $(TARGET): $(TARGET).cpp
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
 
+clean:
+	rm /usr/local/bin/$(TARGET)
+	rm $(TARGET)
+
 install:
-	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
-	mv a2r /usr/local/bin
+	mv $(TARGET) /usr/local/bin
