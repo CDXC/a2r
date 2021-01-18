@@ -7,7 +7,6 @@
 ```bash
 $ git clone https://github.com/CDXC/a2r.git
 $ cd a2r
-$ make
 $ make 
 $ sudo make install
 ```
