@@ -15,4 +15,8 @@ $ sudo make install
 ```bash
 $ sudo make clean
 ```
+## Usage:
 
+```bash
+$ a2r [number]
+```
