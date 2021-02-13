@@ -10,6 +10,11 @@ $ cd a2r
 $ make 
 $ sudo make install
 ```
+then you can safely delete the **a2r** directory:
+
+```bash
+$ cd .. && rm -r a2r
+```
 
 ## Removal:
 ```bash
